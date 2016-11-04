@@ -22,7 +22,7 @@ if [ -d "/sshkey/" ]; then
     cp /sshkey/* /root/.ssh/ && chown root:root /root/.ssh/*
 fi
 
-if [ -f /root/.ssh/id_rsa]; then
+if [ -f /root/.ssh/id_rsa ]; then
     echo "HostKey /root/.ssh/id_rsa" >> /etc/ssh/sshd_config
 else
     ssh-keygen -t rsa -N '' -f /etc/ssh/ssh_host_rsa_key \

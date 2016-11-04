@@ -5,7 +5,7 @@ ENV URL_JDK="http://download.oracle.com/otn-pub/java/jdk/8u112-b15/jdk-8u112-lin
     URL_MAVEN="http://apache.fayea.com/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz" \
     URL_TOMCAT="http://apache.fayea.com/tomcat/tomcat-8/v8.5.6/bin/apache-tomcat-8.5.6.tar.gz" \
     URL_JENKINS="http://mirrors.jenkins-ci.org/war-stable/latest/jenkins.war" \
-    URL_WEBLOGIC="http://blogcdn.uunus.cn/fmw_12.2.1.2.0_wls_quick_Disk1_1of1.zip" \
+    URL_WEBLOGIC="http://cdn.uunus.com/file/fmw_12.2.1.2.0_wls_quick_Disk1_1of1.zip" \
     FMW_JAR="fmw_12.2.1.2.0_wls_quick.jar"
 
 ENV JAVA_HOME=/opt/jdk \
